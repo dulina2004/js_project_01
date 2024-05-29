@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>2D game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body
+    class="body"
+    onkeyup="keyCode(event);"
+    onload="createBoxes(); boyIdleAnimationStart();"
+  >
+    <div class="background" id="background">
+      <div class="score" id="score">0</div>
+      <div class="tag">Score</div>
+
+      <div class="test" id="test">
+        <div class="b1">
+          <div class="c1">
+            <span>W</span><span>e</span><span>l</span><span>c</span
+            ><span>o</span><span>m</span><span>e</span>
+          </div>
+          <div class="c2">
+            <ul>
+              <li>Press "Enter to Start"</li>
+              <li>Tap "Space bar" to jump</li>
+              <li>Try to jump over the obstacles</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- ///////////////////////////////////////////////////////////////// -->
+
+      <!-- ////////////////////////////////////////////////////////////////////// -->
+
+      <img src="resourses/Run (1).png" class="boy" id="boy" />
+
+      <!-- <img src="PngItem_5080910.png" class="flag"/> -->
+
+      <!-- <div class="box" id="box"></div> -->
+    </div>
+
+    <!-- ///////////////////////////////////////////////// -->
+    <div class="end" id="end">
+      <div class="n1" id="n1">
+        <div class="v1" id="v1">
+          <span>G</span><span>a</span><span>m</span><span>e</span> <span>O</span
+          ><span>v</span><span>e</span><span>r</span>
+        </div>
+        <div class="v2" id="v2">
+          <ul>
+            <li class="endScore" id="endScore" style="color: red">dfvf</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- /////////////////////////////////////// -->
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,196 @@
+.body {
+  margin: 0px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: black;
+}
+
+.background {
+  width: 1550px;
+  height: 710px;
+  background-image: url(resourses/background.png);
+  background-repeat: repeat-x;
+  background-size: contain;
+
+  position: absolute;
+  z-index: 5;
+}
+
+.boy {
+  height: 250px;
+  position: absolute;
+  margin-top: 350px;
+}
+
+.score {
+  position: absolute;
+  font-size: 80px;
+  font-weight: bold;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+.box {
+  width: 60px;
+  height: 100px;
+  position: absolute;
+  background-image: url("resourses/flame.gif");
+  background-size: contain;
+  margin-top: 500px;
+
+  background-repeat: no-repeat;
+}
+
+.flag {
+  position: absolute;
+  height: 200px;
+  margin-left: 5000px;
+  margin-top: 370px;
+}
+
+.tag {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 50px;
+  color: red;
+  margin-left: 10px;
+  margin-top: 40px;
+}
+
+.test {
+  position: absolute;
+  z-index: 1;
+  width: 40%;
+  height: 50%;
+  margin-left: 30%;
+  margin-top: 12%;
+  border-radius: 40px;
+  box-shadow: rgb(85, 91, 92) 5px 5px 5px 3px;
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  border-radius: 24px;
+  color: white;
+  /* padding: 2px 18px; */
+  backdrop-filter: blur(30px);
+  display: box;
+  transition-duration: 2s;
+}
+
+.test:hover {
+  width: 42%;
+  height: 52%;
+  margin-left: 28%;
+  margin-top: 10%;
+  box-shadow: rgb(85, 91, 92) 10px 10px 5px 3px;
+  transition-duration: 2s;
+}
+
+.b1 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 10px;
+}
+
+.c1 {
+  /* display: flex; */
+  flex-grow: 1;
+  /* width: 100%; */
+  /* height: 100%; */
+  /* background-color: red; */
+  font-size: 70px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  padding: 10px;
+  font-style: italic;
+  text-shadow: 1px 1px 2px black;
+}
+
+.c2 {
+  /* display: flex; */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  flex-grow: 3;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px black;
+}
+
+span {
+  /* color: red; */
+
+  transition-duration: 0.5s;
+}
+
+span:hover {
+  /* color: blue; */
+  text-shadow: 5px 5px 2px black;
+  transition-duration: 0.5s;
+}
+
+li {
+  transition-duration: 1s;
+}
+
+li:hover {
+  text-shadow: 5px 5px 2px black;
+}
+
+.end {
+  position: absolute;
+  z-index: 1;
+  width: 40%;
+  height: 50%;
+  margin-left: 30%;
+  margin-top: 12%;
+  border-radius: 40px;
+  box-shadow: rgb(85, 91, 92) 5px 5px 5px 3px;
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  border-radius: 24px;
+  color: white;
+  /* padding: 2px 18px; */
+  backdrop-filter: blur(30px);
+  display: box;
+}
+
+.end:hover {
+  width: 42%;
+  height: 52%;
+  margin-left: 28%;
+  margin-top: 10%;
+  box-shadow: rgb(85, 91, 92) 10px 10px 5px 3px;
+  transition-duration: 2s;
+}
+
+.n1 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 10px;
+}
+
+.v1 {
+  /* display: flex; */
+  flex-grow: 1;
+  /* width: 100%; */
+  /* height: 100%; */
+  /* background-color: red; */
+  font-size: 70px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  padding: 10px;
+  font-style: italic;
+  text-shadow: 1px 1px 2px black;
+}
+
+.v2 {
+  /* display: flex; */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  flex-grow: 3;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.endScore {
+  font-size: 60px;
+}
